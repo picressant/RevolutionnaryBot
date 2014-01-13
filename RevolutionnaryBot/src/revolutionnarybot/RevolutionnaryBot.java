@@ -18,7 +18,9 @@ public class RevolutionnaryBot {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws AWTException {
-        MaliciousRobot bot = new MaliciousRobot(5000, 10);
+        MaliciousRobot bot = new MaliciousRobot(100, 10);
+        LaunchWindow w = new LaunchWindow();
+        w.setBot(bot);
     }
     
 }
